@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-wafv2`](https://www.npmjs.com/package/@aws-sdk/client-wafv2/v/3.264.0).
+[`@aws-sdk/client-wafv2`](https://www.npmjs.com/package/@aws-sdk/client-wafv2/v/3.266.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.264.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.266.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Ztr2PC2+Sl9J2fAmTl4heIU1JQWXppU66vPo6aiwa1MX11e24XdjnV2YgMHgCcE8
+sha384-cEB9H8t+vFvO13vQDRS4mwBYX9Wll66E8l24cgwiVDSYrWFlJwLIu9GUuyf2v3z2
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-wafv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.264.0/index.min.mjs"
+            "@aws-sdk/client-wafv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.266.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.264.0/index.min.mjs": "sha384-Ztr2PC2+Sl9J2fAmTl4heIU1JQWXppU66vPo6aiwa1MX11e24XdjnV2YgMHgCcE8"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.266.0/index.min.mjs": "sha384-cEB9H8t+vFvO13vQDRS4mwBYX9Wll66E8l24cgwiVDSYrWFlJwLIu9GUuyf2v3z2"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-wafv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.264.0/index.min.mjs"
+                        "@aws-sdk/client-wafv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.266.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.264.0/index.min.mjs": "sha384-Ztr2PC2+Sl9J2fAmTl4heIU1JQWXppU66vPo6aiwa1MX11e24XdjnV2YgMHgCcE8"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wafv2@3.266.0/index.min.mjs": "sha384-cEB9H8t+vFvO13vQDRS4mwBYX9Wll66E8l24cgwiVDSYrWFlJwLIu9GUuyf2v3z2"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.264.0`)
+* Always pin to a specific version (`@3.266.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-wafv2/blob/refs/tags/3.264.0/LICENSE
+https://github.com/cloud-sdk-builds/client-wafv2/blob/refs/tags/3.266.0/LICENSE
 ```
 
 ---
